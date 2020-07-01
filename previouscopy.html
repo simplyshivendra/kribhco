@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="font-awesome.min.css" type="text/css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c7d4797a1c.js" crossorigin="anonymous"></script>
+    <title>Kribhco</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-light topbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+
+            </div>
+            <ul class="navbar-nav navbar-expand-lg">
+                <li class="nav-link"><a href="#">Employee Portal</a></li>
+                <li class="nav-link"><a href="#">Quick links</a></li>
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-info my-2 my-sm-0 searchbtn" type="submit">Search</button>
+                </form>
+
+            </ul>
+        </div>
+    </nav>
+    <nav class="navbar  navbar-expand-lg navbar-light bg-light" id="top-bar">
+        <!-- Brand logo -->
+        <a class="navbar-brand" href="#">
+            <img src="assets/logo.png" height="40" alt="" loading="lazy">
+            <h6 style="color: green;">Krishak Bharati Cooperative Limited</h6>
+        </a>
+        <!-- <div class="shop-box">  <h5 style="color: green;">Krishak Bharati Cooperative Limited</h5></div> -->
+        <!-- end -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav" style="padding-left: 100px;text-transform: uppercase;">
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li> -->
+                <li class="nav-item dropdown listDropdown">
+                    <a id="menu-tab" class="nav-link customDropdown dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About
+                    </a>
+
+                    <div class="dropdown-menu" navbarDropdownMenuLink>
+                        <div class="row">
+                            <div class="container-fluid">
+                                <div class="col-md-4">
+                                    <h3>About US</h3>
+                                    <a class="dropdown-item" href="#">Genesis</a>
+                                    <a class="dropdown-item" href="#">KRIBHCO at a glance</a>
+                                    <a class="dropdown-item" href="#">Timeline</a>
+                                    <a class="dropdown-item" href="#">Vision, Mission & Objective</a>
+                                    <a class="dropdown-item" href="#">knowledge Center</a>
+                                </div>
+                                <div class="col-md-4">
+                                    <h3>Our businesses</h3>
+                                    <a class="dropdown-item" href="#">Subsidiaries</a>
+                                    <a class="dropdown-item" href="#">Joint Venture</a>
+                                    <a class="dropdown-item" href="#">Partnership</a>
+                                    <a class="dropdown-item" href="#">Investments</a>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <h3>Leadership</h3>
+                                    <a class="dropdown-item" href="#">Meet the MD</a>
+                                    <a class="dropdown-item" href="#">Board of Directors</a>
+                                    <a class="dropdown-item" href="#">Management</a>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <h3>Annual Report</h3>
+                                    <a class="dropdown-item" href="#">Annual Report</a>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <h3>Contact Informations</h3>
+                                    <a class="dropdown-item" href="#">Contact Informations</a>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </li>
+                <li class="nav-item dropdown listDropdown">
+                    <a style=color:black class="nav-link customDropdown dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Product & Services
+                    </a>
+
+                    <div class="dropdown-menu" navbarDropdownMenuLink>
+                        <div class="row">
+                            <div class="container">
+                                <div class="col-md-4">
+                                    <h1>All Products</h1>
+                                    <a class="dropdown-item" href="#">N:- Urea</a>
+                                    <a class="dropdown-item" href="#">P:- DAP, Complexes</a>
+                                    <a class="dropdown-item" href="#">K:- MOP</a>
+                                    <a class="dropdown-item" href="#">SSP</a>
+                                    <a class="dropdown-item" href="#">LFB</a>
+                                    <a class="dropdown-item" href="#">Hy Seeds</a>
+                                    <a class="dropdown-item" href="#">Certified Seeds</a>
+                                    <a class="dropdown-item" href="#">Compost</a>
+                                    <a class="dropdown-item" href="#">ZnS</a>
+                                </div>
+                                <div class="col-md-4">
+                                    <h1>Services</h1>
+                                    <a class="dropdown-item" href="#">KBSK</a>
+                                    <a class="dropdown-item" href="#">Soil Testing Lab</a>
+                                    <a class="dropdown-item" href="#">Soil Testing Lab</a>
+
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </li>
+
+
+                <li class="nav-item dropdown listDropdown">
+                    <a style=color:black class="nav-link customDropdown dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Cooperative Sustainability
+                    </a>
+
+                    <div class="dropdown-menu" navbarDropdownMenuLink>
+                        <div class="row">
+                            <div class="container">
+                                <div class="col-md-4">
+                                    <a class="dropdown-item" href="#">Coops</a>
+                                    <a class="dropdown-item" href="#">CSR</a>
+                                    <a class="dropdown-item" href="#">GVT</a>
+                                    <a class="dropdown-item" href="#">Compost</a>
+                                    <a class="dropdown-item" href="#">LBF</a>
+
+
+                                </div>
+
+
+                                <div class="col-md-4">
+
+                                    <a class="dropdown-item" href="#">Farmer Service</a>
+                                    <a class="dropdown-item" href="#">FAS</a>
+                                    <a class="dropdown-item" href="#">KKPK</a>
+                                    <a class="dropdown-item" href="#">Environment</a>
+                                    <a class="dropdown-item" href="#">SHE</a>
+                                    <a class="dropdown-item" href="#">Solar</a>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </li>
+                <li class="nav-item dropdown listDropdown">
+                    <a style=color:black class="nav-link customDropdown dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Career
+                    </a>
+
+                    <div class="dropdown-menu" navbarDropdownMenuLink>
+                        <div class="row">
+                            <div class="container">
+                                <div class="col-md-4">
+                                    <a class="dropdown-item" href="#">Internship</a>
+                                    <a class="dropdown-item" href="#">Professional</a>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </li>
+                <li class="nav-item">
+                    <a style=color:black class="nav-link" href="#">Tender</a>
+                </li>
+                <li class="nav-item">
+                    <a style=color:black class="nav-link" href="#">Contact Us</a>
+                </li>
+
+            </ul>
+            <div class="horizonatal-spacing"></div>
+            <div class="horizonatal-spacing"></div>
+            <!-- <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+        </div>
+
+    </nav>
+    <!-- Navigation ends -->
+
+
+    <!-- news ticker -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-1 headlinetitle">
+                <strong>News</strong>
+            </div>
+            <div class="col-sm-11">
+                <marquee behavior="scroll" direction="left" class="headline" onmouseover="this.stop();" onmouseout="this.start();" id="nw_up" scrollamount="10">
+                    <ul>
+
+                        <span>
+                            <h8>20-5-2019 :</h8>
+                            <a href="#">KRIBHCO bags four awards from FAI.</a>
+                        </span> &nbsp; &nbsp;
+                        <span>
+                            <a href="#" rel="tooltip"  target="_blank">KRIBHCO’s 39th AGM held - Two Cooperators Felicitated</a> 
+                       </span> &nbsp; &nbsp;
+                        <span>
+                        <a href="#" rel="tooltip"  target="_blank">KRIBHCO’s 39th AGM held - Two Cooperators Felicitated</a> 
+                       </span>
+                    </ul>
+                </marquee>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+
+
+
+
+    <div class="container-fluid">
+        <div class="row" id="whats_new">
+            <span class="col-md-1 col-xs-3 padded1">
+        <!---<img src="/opencms/opencms/system/modules/CDSCO.WEB/resources/img/new.gif" alt="what's new" >-->
+        <label class="label css_blink" style="color: white">News</label> 
+    </span>
+
+            <span class="col-md-11 col-xs-9 pad-t"> 
+                <marquee behavior="scroll" onmouseover="this.stop();"
+                    onmouseout="this.start();" direction="left" id="nw_up" scrollamount="10">
+                <!-- class="pad-top" -->
+                <span>
+                    <h8>20-5-2019 :</h8>
+                    <a href="#" >
+                    KRIBHCO bags four awards from FAI.
+    </a>
+</span> &nbsp; &nbsp;
+            <span>
+                <a href="#" rel="tooltip"  target="_blank">
+       KRIBHCO’s 39th AGM held - Two Cooperators Felicitated
+      </a> 
+</span> &nbsp; &nbsp;
+
+
+            <span>
+                <a href="https://www.indiancooperative.com/kribcho/tough-times-kribhco-balances-safety-with-doorstep-delivery/" rel="tooltip"  target="_blank">Tough times: Kribhco balances safety with doorstep delivery</a>
+            </span>
+
+
+            </marquee>
+
+            <!-- <i class="fa fa-pause white st_cdsco" value="Stop Marquee" title="Pause" onclick="document.getElementById('nw_up').stop();"></i>
+                <i class="fa fa-play white st_cdsco" value="Start Marquee" title="Play" onclick="document.getElementById('nw_up').start();"></i> -->
+            </span>
+        </div>
+    </div>
+    <!-- news ticker -->
+    <!-- <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-1 headlinetitle">
+                <strong>News</strong>
+            </div>
+            <div class="col-sm-11">
+                <marquee behavior="" direction="left" class="headline">
+                    <ul>
+                        <li>this is the headline for the day, it will keep on moving from right to left</li>
+                    </ul>
+                </marquee>
+            </div>
+        </div>
+    </div> -->
+    <!-- end -->
+
+    <!-- caraousel section -->
+    <div id="carouselExampleCaptions" class="carousel slide slideshow" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/1.1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                    <h5>First slide label</h5>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
+                <!-- <video class="video_wh" poster="/images/business-video-bg-index.jpg" autoplay muted id="krisVideo" height="80%" width="100%">
+                    <source src="assets/1.1" type="video/mp4" ></video> -->
+                <!-- <img src="assets/1.1.jpg" class="d-block w-100" alt="..."> -->
+
+            </div>
+            <div class="carousel-item">
+                <!-- <img src="assets/video.mp4" class="d-block w-100" alt="..."> -->
+                <div class="carousel-caption d-none d-md-block">
+
+                    <h5>First slide label</h5>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
+                <video class="video_wh" autoplay muted id="krisVideo" height="80%" width="100%">
+                    <source src="assets/video.mp4" type="video/mp4" ></video>
+                <!-- <img src="assets/1.1.jpg" class="d-block w-100" alt="..."> -->
+
+            </div>
+            <div class="carousel-item">
+                <img src="assets/1.2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    </div>
+    <!-- carousel section ends -->
+    <br/>
+
+    <!-- mission and other cards
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="missioncards" id="card-1">
+                    <h3>Mission </h3>
+
+                    <span>To act as a catalyst to agricultural and rural development by selecting, financing and managing projects that are both socially desirable and commercially profitable.
+                    </span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="missioncards" id="card-2">
+                    <h3>Vision</h3>
+
+                    <article>To become a world class organization that represents the farmer community and maximizes their returns through specialization in agricultural inputs, rural need based products and other diversified businesses that maximize stakeholders’
+                        value.
+                    </article>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="missioncards" id="card-3">
+                    <h3>Objectives
+                    </h3>
+
+                    <article>To strengthen cooperative system To enhance the urea installed capacity and increasing its market share To ensure optimum utilization of existing plant and machinery To diversify into other core sectors like Power, Port, Infrastructure,
+                        Rural Retail, etc Transfer of technology for modern farming and improving farmers livelihood To educate and train farmers, provide free testing facilities for soil nutrients and irrigation water</article>
+
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- end -->
+
+    <!--Visual dashboard REcord start-->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-6 tagline" style="margin: 0 auto;">
+                <h3 style="text-align: center;"><strong>Production (2019-20)</strong>
+                    <hr class="taglinehr">
+                </h3>
+            </div>
+        </div>
+
+        <div class="visualrecord">
+            <div class="row">
+                <div class="col-md-3">
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <!-- <i class="fas fa-industry fa-5x"></i> -->
+                            <img src="assets/ammonia.gif" width="50">
+
+                        </div>
+                        <div class="col-md-8 datametric">
+                            <h5 style="font-weight: 300;"><span>Ammonia <br><strong>13.67 Lakh MT</strong></span></h5>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-3 visualrecord">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <!-- <i class="fas fa-industry fa-5x"></i> -->
+                            <img src="assets/Urea.png" width="50">
+                        </div>
+                        <div class="col-md-8 datametric">
+                            <h5 style="font-weight: 100;">Urea <br><strong>23.31 Lakh MT</strong></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 visualrecord">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <!-- <i class="fas fa-industry fa-5x"></i> -->
+                            <img src="assets/bio.png" width="50">
+                        </div>
+                        <div class="col-md-8 datametric">
+                            <h5 style="font-weight: 300;">BIO-FERTILISER <br><strong>7.59 Lakh Ltr</strong></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 visualrecord">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <!-- <i class="fas fa-industry fa-5x"></i> -->
+                            <img src="assets/Ceeds.png" width="50">
+                        </div>
+                        <div class="col-md-8 datametric">
+                            <h5 style="font-weight: 300;">CERTIFIED SEED <br><strong>1.72 Lakh Qtl</strong></h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--Visual dashboard REcord end-->
+
+
+
+
+    <!-- News feed -->
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <div class="md-image">
+                    <img src="http://kribhco.net/images/news/md2.jpg" width="100%" height="100%" style="border-radius: 50%;">
+                </div>
+
+            </div>
+            <div class="col-md-5 md-quote">
+                <h3>Message from MD
+                    <hr>
+                </h3>
+                <article>The Food-grain Production is likely to touch a new high and particularly Wheat Production may cross 100 million ton mark during 2018-19 as per 1st advance estimate. Fertilizer, being one of the critical inputs, plays a significant role
+                    in enhancing agriculture productivity. The Rainfall plays a crucial role in consumption of fertilizers. The year witnessed satisfactory rainfall resulting in good consumption of Fertilizers.</article>
+                <br>
+                <h5>Rajan Chaudhary<br>Managing Director</h5>
+            </div>
+
+            <div class="col-md-3">
+
+                <div class="heading">
+                    Products
+                </div>
+                <div class="product-carousel newsfeed">
+                    <img src="assets/Urea1.PNG" alt="...">
+                    <h5>Urea</h5>
+                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+
+                <!-- </div> -->
+            </div>
+
+        </div>
+    </div>
+    <!-- end -->
+
+    <div class="vertical-space"></div>
+
+    <!-- News and update section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>News and Updates
+                    <hr>
+                </h1>
+            </div>
+        </div>
+        <div class="vertical-space"></div>
+        <div class="row">
+            <div class="col-md-4 newsandfeed">
+                <a href="https://www.indiancooperative.com/kribcho/kribhco-donates-rs-2-crore-gowda-applauds-gesture/"><img src="https://www.indiancooperative.com/wp-content/uploads/2020/04/new-799x487.jpg" width="100%" class="newsthumbnail"></a>
+                <br><br>
+                <article>
+                    <a href="https://www.indiancooperative.com/kribcho/kribhco-donates-rs-2-crore-gowda-applauds-gesture/" class="newstitle">
+                        <h4>Kribhco donates Rs 2 crore; Gowda applauds gesture</h4>
+                    </a>
+                </article>
+
+                <div class="row newsbottom">
+                    <div class="col-md-6" style="text-align: left;">Date</div>
+                    <div class="col-md-6" style="text-align: right;"><a href="https://www.indiancooperative.com/kribcho/kribhco-donates-rs-2-crore-gowda-applauds-gesture/">Read More</a></div>
+                </div>
+
+            </div>
+            <div class="col-md-4 newsandfeed">
+                <a href="https://www.indiancooperative.com/co-op-news-snippets/kribhco-donates-masks-and-ppes/"><img src="https://www.indiancooperative.com/wp-content/uploads/2020/04/kribho-1140x570.jpg" width="100%" class="newsthumbnail"></a>
+                <br><br>
+                <article>
+                    <a href="https://www.indiancooperative.com/co-op-news-snippets/kribhco-donates-masks-and-ppes/" class="newstitle">
+                        <h4>Farm to Fork strategy: What role for nutrients? Virtual Conference by Euractiv</h4>
+                    </a>
+                </article>
+                <div class="row newsbottom">
+                    <div class="col-md-6" style="text-align: left;">Date</div>
+                    <div class="col-md-6" style="text-align: right;"><a href="https://www.indiancooperative.com/co-op-news-snippets/kribhco-donates-masks-and-ppes/">Read More</a></div>
+                </div>
+            </div>
+            <div class="col-md-4 newsandfeed">
+                <a href="https://www.indiancooperative.com/kribcho/tough-times-kribhco-balances-safety-with-doorstep-delivery/"><img src="https://www.indiancooperative.com/wp-content/uploads/2020/04/tamil-nadu-771x453.jpg" width="100%" class="newsthumbnail"></a>
+                <br><br>
+                <article>
+                    <a href="https://www.indiancooperative.com/kribcho/tough-times-kribhco-balances-safety-with-doorstep-delivery/" class="newstitle">
+                        <h4>Tough times: Kribhco balances safety with doorstep delivery</h4>
+                    </a>
+                </article>
+                <div class="row newsbottom">
+                    <div class="col-md-6" style="text-align: left;">Date</div>
+                    <div class="col-md-6" style="text-align: right;"><a href="https://www.indiancooperative.com/kribcho/tough-times-kribhco-balances-safety-with-doorstep-delivery/">Read More</a></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- end -->
+
+    <div class="vertical-space"></div>
+
+    <!-- Products list -->
+
+
+    <!-- end -->
+    <div class="vertical-space"></div>
+    <!-- footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 footercontent">
+                    &copy; Kribhco 2020<br> Maintained and developed by Kribhco IT departments
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>
